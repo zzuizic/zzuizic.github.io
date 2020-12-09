@@ -108,6 +108,11 @@ header #header-bar>.row {
 /* 트게더 알림 */ header #header-bar #header-menu-right #userDropdown #notification-badge {
 	background: var(--mainColor);
 }
+/* 전광판 */ header #header-bar #header-top-notice a,
+/* 트게더 알림 */ header #header-bar #header-menu-right #userDropdown a {
+	color: var(--mainColor);
+}
+
 
 
 /*************** main ***************/
