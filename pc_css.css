@@ -476,6 +476,11 @@ div#main-menu div:nth-last-child(1) {
 
 
 /* 드롭다운 */
+header #header-bar a.dropdown-toggle {
+	color:var(--mainColor);
+}
+
+
 .dropdown.open .dropdown-menu,
 .input-group-btn.open .dropdown-menu {
 	opacity: unset;
@@ -497,7 +502,6 @@ div#main-menu div:nth-last-child(1) {
 
 .dropdown-menu>li>a {
 	transition: 0.1s;
-	color:var(--mainColor);
 }
 
 .dropdown-menu>li>a:hover {
