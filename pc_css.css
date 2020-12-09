@@ -420,8 +420,7 @@ div#main-menu div:nth-last-child(1) {
 }
 
 #article-content-wrapper>.footer {
-	border-top: 2px solid var(--mainColor);
-	border-bottom: 2px solid var(--mainColor);
+	border-bottom: 1px solid var(--mainColor);
 	background: white;
 	margin-bottom: 1em;
 }
