@@ -224,7 +224,7 @@ div#main-menu div:nth-last-child(1) {
 
 #board-info>img#board-info-profile-img:hover {
 	border-radius: 50px;
-	transform: scale(1.5);
+	transform: scale(1.2);
 }
 
 #board-info #viewers-area #viewers:before {
