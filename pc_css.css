@@ -492,12 +492,14 @@ div#main-menu div:nth-last-child(1) {
 
 .dropdown-menu>li>a {
 	transition: 0.1s;
+	color:var(--mainColor);
 }
 
 .dropdown-menu>li>a:hover {
 	background: transparent;
 	transform: scaleX(1.04);
 	transition: 0.1s;
+	color:black;
 }
 
 #latestDropdownMenu>li>a>span.delrow,
