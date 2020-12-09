@@ -4,9 +4,9 @@
 /* 컬러, 로고 설정 부분 */
 :root {
 	--bgColor: #FDF385;	 /* 배경 색 */
-	--mainColor: #666666;	 /* 메인 컬러 */
+	--mainColor: #EBCD22;	 /* 메인 컬러 */
 	--mainColor2: #FAE460; /* 트게더 메뉴, 게시글 hover */
-	--mainColor3: #666666; /* 공지, 인기글 */
+	--mainColor3: #EBCD22; /* 공지, 인기글 */
 	--mainColor5: #FAE460; /* 공지, 인기글 hover */
 	--logoURL: url(./logo/logo1.png); /* 로고 이미지 주소 */
 	--logoWidth: 160px;	 /* 로고 너비 */
