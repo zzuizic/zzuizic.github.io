@@ -125,8 +125,8 @@ div#main-menu div:nth-last-child(1) {
 }
 
 #main .menu-wrapper > a:hover {
-	/* background-color: var(--mainColor2); */
-	font-weight:bold;
+	background-color: white;
+	font-weight:700;
 }
 #main .menu-wrapper .spacer {
 	background: var(--mainColor);
@@ -317,6 +317,7 @@ div#main-menu div:nth-last-child(1) {
 #article-list>.article-list-row.notice:hover,
 #article-list>.article-list-row.notice:focus {
 	background-color: var(--mainColor5);
+	font-weight:700;
 }
 
 #article-list>.article-list-row>.item>.list-header {
