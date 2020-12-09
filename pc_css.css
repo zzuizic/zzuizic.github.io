@@ -18,7 +18,7 @@
 }
 
 @font-face {
-    font-family: 'zzuizicfont';
+    font-family: 'zzuizicfont1';
     src: url('https://zzuizic.github.io/Cafe24Ssurround.woff') format('woff');
     font-weight: bold;
     font-style: normal;
@@ -26,7 +26,7 @@
 }
 
 @font-face {
-    font-family: 'Cafe24 Ohsquare air';
+    font-family: 'zzuizicfont';
     src: url('https://zzuizic.github.io/Cafe24Ohsquareair.woff') format('woff');
     font-weight: 300;
     font-style: normal;
