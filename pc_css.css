@@ -399,8 +399,10 @@ div#main-menu div:nth-last-child(1) {
 #article-content-wrapper {
 	padding: 0;
 	background: white;
-	border: none 1px solid var(--mainColor);
+	border: 1px solid var(--mainColor);
 	box-shadow: 3px 3px var(--mainColor);
+	border-top: none;
+	border-bottom: none;
 }
 
 #article-content-wrapper>.header {
