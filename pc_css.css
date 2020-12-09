@@ -38,7 +38,6 @@ html{
 body {
 	background: transparent;
 	font-family: 'zzuizicfont', sans-serif;	
-	color:var(--mainColor);
 }
 
 a,
@@ -618,7 +617,7 @@ span.a-badge i.fa.fa-star {
 	height: 30px !important;
 	background: transparent !important;
 	transition: 0.2s !important;
-	font-size:1.2em;
+	font-size:1.2em !important;
 }
 
 .btn:hover,
