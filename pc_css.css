@@ -125,7 +125,8 @@ div#main-menu div:nth-last-child(1) {
 }
 
 #main .menu-wrapper > a:hover {
-	background-color: var(--mainColor2);
+	/* background-color: var(--mainColor2); */
+	font-weight:bold;
 }
 #main .menu-wrapper .spacer {
 	background: var(--mainColor);
@@ -253,7 +254,7 @@ div#main-menu div:nth-last-child(1) {
 	position: relative;
 }
 
-#article-list #article-list-category > a[href="/cjssus50"] {
+#article-list #article-list-category > a[href="/zzuizic"] {
 	color: var(--mainColor);
 }
 
