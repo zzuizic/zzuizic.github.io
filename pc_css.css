@@ -100,7 +100,8 @@ header #header-bar {
 }
 
 header #header-bar>.row {
-	border: 2px solid var(--mainColor);
+	border: 1px solid var(--mainColor);
+	box-shadow: 3px 3px 10px;
 	border-radius: 12px;
 }
 
