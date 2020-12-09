@@ -484,6 +484,9 @@ div#main-menu div:nth-last-child(1) {
 header #header-bar a.dropdown-toggle {
 	color:var(--mainColor);
 }
+header #header-bar a.dropdown-toggle:hover {
+	color:black;
+}
 
 
 .dropdown.open .dropdown-menu,
