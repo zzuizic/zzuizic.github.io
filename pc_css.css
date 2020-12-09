@@ -37,7 +37,8 @@ html{
 
 body {
 	background: transparent;
-	font-family: 'zzuizicfont', sans-serif;
+	font-family: 'zzuizicfont', sans-serif;	
+	color:var(--mainColor);
 }
 
 a,
