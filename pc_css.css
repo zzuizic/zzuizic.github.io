@@ -101,7 +101,7 @@ header #header-bar {
 
 header #header-bar>.row {
 	border: 1px solid var(--mainColor);
-	box-shadow: 3px 3px;
+	box-shadow: 3px 3px var(--mainColor);
 	border-radius: 12px;
 }
 
@@ -122,7 +122,7 @@ header #header-bar>.row {
 #main .menu-wrapper {
 	background: white;
 	border: 1px solid var(--mainColor);
-	box-shadow: 3px 3px;
+	box-shadow: 3px 3px var(--mainColor);
 	border-radius: 12px;
 	width: 180px;
 }
@@ -174,7 +174,7 @@ div#main-menu div:nth-last-child(1) {
 	height: auto;
 	background: white;
 	border: 1px solid var(--mainColor);
-	box-shadow: 3px 3px;
+	box-shadow: 3px 3px var(--mainColor);
 	border-radius: 12px;
 	margin-bottom: 0.5em;
 }
@@ -241,7 +241,7 @@ div#main-menu div:nth-last-child(1) {
 #article-list {
 	background: white;
 	border: 1px solid var(--mainColor);
-	box-shadow: 3px 3px;
+	box-shadow: 3px 3px var(--mainColor);
 	border-radius: 12px;
 }
 
@@ -372,7 +372,8 @@ div#main-menu div:nth-last-child(1) {
 /* 게시글 본문 */
 #article-info {
 	background: white;
-	border: 2px solid var(--mainColor);
+	border: 1px solid var(--mainColor);
+	box-shadow: 3px 3px var(--mainColor);
 	border-bottom: 1px;
 	border-radius: 12px 12px 0 0;
 	margin-top: 0.5em;
@@ -396,13 +397,15 @@ div#main-menu div:nth-last-child(1) {
 #article-content-wrapper {
 	padding: 0;
 	background: white;
-	border: 2px solid var(--mainColor);
+	border: 1px solid var(--mainColor);
+	box-shadow: 3px 3px var(--mainColor);
 	border-bottom: 1px;
 }
 
 #article-content-wrapper>.header {
 	border-top: none;
-	border-bottom: 2px solid var(--mainColor);
+	border: 1px solid var(--mainColor);
+	box-shadow: 3px 3px var(--mainColor);
 	background: transparent;
 }
 
@@ -420,7 +423,8 @@ div#main-menu div:nth-last-child(1) {
 }
 
 #article-neighbor-list {
-	border: 2px solid var(--mainColor);
+	border: 1px solid var(--mainColor);
+	box-shadow: 3px 3px var(--mainColor);
 	border-radius: 12px;
 	background: white;
 	margin-bottom: calc(1em + 20px);
@@ -442,7 +446,8 @@ div#main-menu div:nth-last-child(1) {
 #article-reply-area {
 	padding: 0;
 	background: white;
-	border: 2px solid var(--mainColor);
+	border: 1px solid var(--mainColor);
+	box-shadow: 3px 3px var(--mainColor);
 	border-radius: 0 0 12px 12px;
 	margin-top: 1em;
 	margin-bottom: 1em;
@@ -498,7 +503,8 @@ header #header-bar a.dropdown-toggle:hover {
 .input-group-btn.open .dropdown-menu {
 	opacity: unset;
 	transform: unset;
-	border: 2px solid var(--mainColor);
+	border: 1px solid var(--mainColor);
+	box-shadow: 3px 3px var(--mainColor);
 	border-radius: 10px;
 	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.275);
 }
