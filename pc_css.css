@@ -373,6 +373,7 @@ div#main-menu div:nth-last-child(1) {
 	border-bottom: 1px;
 	border-radius: 12px 12px 0 0;
 	margin-top: 0.5em;
+	color:black;
 }
 
 #article-info>h2 {
@@ -547,7 +548,7 @@ header #header-bar a.dropdown-toggle:hover {
 
 .fa-user {
 	animation: heartbeat 1s infinite;
-	color: #f5cfcf;
+	color: #FF0000;
 }
 
 small.favo i.fa.fa-heart {
@@ -616,6 +617,7 @@ span.a-badge i.fa.fa-star {
 	height: 30px !important;
 	background: transparent !important;
 	transition: 0.2s !important;
+	font-size:1.2em;
 }
 
 .btn:hover,
