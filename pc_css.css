@@ -609,10 +609,10 @@ span.a-badge i.fa.fa-star {
 	margin-right: -2px;
 }
 .btn.cog{
-	left:100px;
+	left:100px !important;
 }
 .btn.del{
-	left:163px;
+	left:163px !important;
 }
 
 .btn,
