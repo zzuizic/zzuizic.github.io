@@ -406,6 +406,7 @@ div#main-menu div:nth-last-child(1) {
 #article-content-wrapper #article-content {
 	margin: 0.5em;
 	border: none;
+	color:black;
 }
 
 #article-content-wrapper>.footer {
