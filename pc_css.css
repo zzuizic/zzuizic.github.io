@@ -445,6 +445,7 @@ div#main-menu div:nth-last-child(1) {
 #article-neighbor-list>div>a,
 #article-neighbor-list>div>span.author {
 	color: var(--mainColor);
+	line-height: 3em;
 }
 /* 게시글 끝 */
 
