@@ -13,8 +13,8 @@
 	--toTopURL: url(./logo/toTop.png); /* 위로 이미지 주소*/
 	--toTopHeight: 100px; /* 위로 이미지 높이 */
 	--toTopWidth: 113px; /* 위로 이미지 너비 */
-	--before: "쮜직이와 ";		 /* 접속자 수 앞 */
-	--after: " 선생님들";		 /* 접속자 수 뒤 */
+	--before: "선생님 ";		 /* 접속자 수 앞 */
+	--after: "분이 콩닥콩닥";		 /* 접속자 수 뒤 */
 }
 
 @font-face {
