@@ -118,7 +118,6 @@ header #header-bar>.row {
 	border: 2px solid var(--mainColor);
 	border-radius: 12px;
 	width: 180px;
-	color:var(--mainColor);
 }
 
 /* 메뉴 밑 흰색 제거 */
@@ -129,6 +128,7 @@ div#main-menu div:nth-last-child(1) {
 #main .menu-wrapper > a {
 	padding: 0.35em 0.5em 0.35em 0.5em;
 	letter-spacing: -0.05em;
+	color:var(--mainColor);
 }
 
 #main .menu-wrapper a:nth-last-child(1) {
