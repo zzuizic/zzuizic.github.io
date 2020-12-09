@@ -313,6 +313,10 @@ div#main-menu div:nth-last-child(1) {
 }
 
 /* 게시글 */
+#article-list>.article-list-row>.item>.list-title>a{
+	font-size:1.2em
+}
+
 #article-list>.article-list-row {
 	border: none;
 	transition: 0.2s !important;
