@@ -38,7 +38,6 @@ html{
 body {
 	background: transparent;
 	font-family: 'zzuizicfont', sans-serif;
-	font-size:1.2em;
 }
 
 a,
@@ -97,6 +96,7 @@ header #right-search-form>#right-search-btn:focus {
 header #header-bar {
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
+	color:var(--mainColor);
 }
 
 header #header-bar>.row {
@@ -118,6 +118,7 @@ header #header-bar>.row {
 	border: 2px solid var(--mainColor);
 	border-radius: 12px;
 	width: 180px;
+	color:var(--mainColor);
 }
 
 /* 메뉴 밑 흰색 제거 */
@@ -136,7 +137,7 @@ div#main-menu div:nth-last-child(1) {
 
 #main .menu-wrapper > a:hover {
 	background-color: white;
-	font-weight:700;
+	color:black;
 }
 #main .menu-wrapper .spacer {
 	background: var(--mainColor);
@@ -327,7 +328,6 @@ div#main-menu div:nth-last-child(1) {
 #article-list>.article-list-row.notice:hover,
 #article-list>.article-list-row.notice:focus {
 	background-color: var(--mainColor5);
-	font-weight:700;
 }
 
 #article-list>.article-list-row>.item>.list-header {
