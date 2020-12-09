@@ -216,15 +216,15 @@ div#main-menu div:nth-last-child(1) {
 #board-info>img#board-info-profile-img {
 	width: 80px;
 	margin-right: 15px;
-	border-radius: 30px;
+	border-radius: 50px;
 	/*animation: waterdrop 3s ease-in-out infinite both alternate;*/
 	border: 2px solid var(--mainColor);
 	transition: 0.2s;
 }
 
 #board-info>img#board-info-profile-img:hover {
-	border-radius: 8px;
-	transform: scale(1.1);
+	border-radius: 50px;
+	transform: scale(1.5);
 }
 
 #board-info #viewers-area #viewers:before {
