@@ -70,7 +70,9 @@ header .row>div:nth-child(1) > a > img {
 
 /* 검색 창 */
 header #right-search-form>input[type='text'] {
-	border: 2px solid var(--mainColor);
+	border: 1px solid var(--mainColor);
+	box-shadow: 3px 3px var(--mainColor);
+	border-radius: 12px;
 	transition: 0.2s;
 }
 
