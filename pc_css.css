@@ -20,23 +20,7 @@
 @font-face {
     font-family: 'zzuizicfont';
     src: url('https://zzuizic.github.io/Cafe24Ssurround.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'zzuizicfont2';
-    src: url('https://zzuizic.github.io/Cafe24Ohsquareair.woff') format('woff');
     font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'zzuizicfont3';
-    src: url('https://zzuizic.github.io/Cafe24Oneprettynight.woff') format('woff');
-    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
@@ -54,6 +38,7 @@ html{
 body {
 	background: transparent;
 	font-family: 'zzuizicfont', sans-serif;
+	font-weight:100;
 }
 
 a,
