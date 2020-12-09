@@ -13,8 +13,8 @@
 	--toTopURL: url(./logo/toTop.png); /* 위로 이미지 주소*/
 	--toTopHeight: 100px; /* 위로 이미지 높이 */
 	--toTopWidth: 113px; /* 위로 이미지 너비 */
-	--before: "꼬냉을 향해 뛰는 ";		 /* 접속자 수 앞 */
-	--after: "개의 심장";		 /* 접속자 수 뒤 */
+	--before: "쮜직이와 ";		 /* 접속자 수 앞 */
+	--after: " ";		 /* 접속자 수 뒤 */
 }
 
 /* 모든 항목 focus시 아웃라인 제거 */
