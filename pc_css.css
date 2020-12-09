@@ -400,7 +400,7 @@ div#main-menu div:nth-last-child(1) {
 	padding: 0;
 	background: white;
 	border: 1px solid var(--mainColor);
-	box-shadow: 3px 3px var(--mainColor);
+	box-shadow: 3px 0px var(--mainColor);
 	border-top: none;
 	border-bottom: none;
 }
@@ -423,6 +423,7 @@ div#main-menu div:nth-last-child(1) {
 
 #article-content-wrapper>.footer {
 	border-bottom: 1px solid var(--mainColor);
+	box-shadow: 3px 3px var(--mainColor);
 	background: white;
 	margin-bottom: 1em;
 }
