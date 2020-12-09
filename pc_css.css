@@ -375,8 +375,8 @@ div#main-menu div:nth-last-child(1) {
 #article-info {
 	background: white;
 	border: 1px solid var(--mainColor);
-	box-shadow: 3px 3px var(--mainColor);
-	border-bottom: 1px;
+	box-shadow: 3px 0px var(--mainColor);
+	border-bottom: none;
 	border-radius: 12px 12px 0 0;
 	margin-top: 0.5em;
 	color:black;
@@ -399,22 +399,24 @@ div#main-menu div:nth-last-child(1) {
 #article-content-wrapper {
 	padding: 0;
 	background: white;
-	border: 1px solid var(--mainColor);
+	border: none 1px solid var(--mainColor);
 	box-shadow: 3px 3px var(--mainColor);
-	border-bottom: 1px;
 }
 
 #article-content-wrapper>.header {
 	border-top: none;
-	border: 1px solid var(--mainColor);
+	/* border: 1px solid var(--mainColor);
 	box-shadow: 3px 3px var(--mainColor);
-	background: transparent;
+	background: transparent; */
 }
 
 #article-content-wrapper #article-content {
 	margin: 0.5em;
 	border: none;
 	color:black;
+}
+#article-content-wrapper>.vote-area{
+	border:none;
 }
 
 #article-content-wrapper>.footer {
@@ -698,7 +700,7 @@ span.a-badge i.fa.fa-star {
 }
 
 .input-group-btn>.btn, .input-group-btn>.btn-group{
-	font-size: inherit !important;
+	font-size: 16px !important;
 	margin-right: 5px;
 }
 
