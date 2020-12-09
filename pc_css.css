@@ -18,9 +18,9 @@
 }
 
 @font-face {
-    font-family: 'zzuizicfont1';
+    font-family: 'zzuizicfont';
     src: url('https://zzuizic.github.io/Cafe24Ssurround.woff') format('woff');
-    font-weight: bold;
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
@@ -34,7 +34,7 @@
 }
 
 @font-face {
-    font-family: 'zzuizicfont';
+    font-family: 'zzuizicfont3';
     src: url('https://zzuizic.github.io/Cafe24Oneprettynight.woff') format('woff');
     font-weight: normal;
     font-style: normal;
