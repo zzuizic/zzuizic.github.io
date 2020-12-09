@@ -101,7 +101,7 @@ header #header-bar {
 
 header #header-bar>.row {
 	border: 1px solid var(--mainColor);
-	box-shadow: 3px 3px 10px;
+	box-shadow: 3px 3px;
 	border-radius: 12px;
 }
 
@@ -121,7 +121,8 @@ header #header-bar>.row {
 /* 트게더 메뉴 */
 #main .menu-wrapper {
 	background: white;
-	border: 2px solid var(--mainColor);
+	border: 1px solid var(--mainColor);
+	box-shadow: 3px 3px;
 	border-radius: 12px;
 	width: 180px;
 }
@@ -172,7 +173,8 @@ div#main-menu div:nth-last-child(1) {
 	margin: 0;
 	height: auto;
 	background: white;
-	border: 2px solid var(--mainColor);
+	border: 1px solid var(--mainColor);
+	box-shadow: 3px 3px;
 	border-radius: 12px;
 	margin-bottom: 0.5em;
 }
@@ -212,7 +214,7 @@ div#main-menu div:nth-last-child(1) {
 #board-info>img#board-info-profile-img {
 	width: 80px;
 	margin-right: 15px;
-	border-radius: 10px;
+	border-radius: 30px;
 	/*animation: waterdrop 3s ease-in-out infinite both alternate;*/
 	border: 2px solid var(--mainColor);
 	transition: 0.2s;
@@ -238,7 +240,8 @@ div#main-menu div:nth-last-child(1) {
 .frame>.frame,
 #article-list {
 	background: white;
-	border: 2px solid var(--mainColor);
+	border: 1px solid var(--mainColor);
+	box-shadow: 3px 3px;
 	border-radius: 12px;
 }
 
