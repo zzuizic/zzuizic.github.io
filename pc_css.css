@@ -607,6 +607,12 @@ span.a-badge i.fa.fa-star {
 .btn.square {
 	margin-right: -2px;
 }
+.btn.cog{
+	left:100px;
+}
+.btn.del{
+	left:163px;
+}
 
 .btn,
 .input-group .form-control {
@@ -614,7 +620,7 @@ span.a-badge i.fa.fa-star {
 	border-color: var(--btcolor) !important;
 	border-radius: 8px !important;
 	color: var(--btcolor) !important;
-	height: 30px !important;
+	height: 35px !important;
 	background: transparent !important;
 	transition: 0.2s !important;
 	font-size:1.2em !important;
