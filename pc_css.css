@@ -697,7 +697,7 @@ span.a-badge i.fa.fa-star {
 	color: white !important;
 }
 
-.input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group{
+.input-group-btn>.btn, .input-group-btn>.btn-group{
 	font-size: inherit !important;
 	margin-right: 5px;
 }
@@ -705,6 +705,7 @@ span.a-badge i.fa.fa-star {
 .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group{
 	font-size: 17px !important;
 	margin-left: 5px;
+	margin-right: none;
 }
 
 /* 버튼, 하단 검색 끝 */
