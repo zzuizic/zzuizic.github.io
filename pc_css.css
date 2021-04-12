@@ -322,10 +322,14 @@ div#main-menu div:nth-last-child(1) {
 /* 게시글 */
 #article-list>.article-list-row>.item>.list-title>.list-category>span{
 	font-size:1.2em;
+	height: inherit;
+    	line-height: 2;
 }
 
 #article-list>.article-list-row>.item>.list-title>a{
-	font-size:1.2em
+	font-size:1.2em;
+	height: inherit;
+    	line-height: 2;
 }
 
 #article-list>.article-list-row {
