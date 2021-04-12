@@ -379,6 +379,7 @@ div#main-menu div:nth-last-child(1) {
 /* 게시글 댓글 수 */
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
 	color: var(--mainColor);
+	line-height:2;
 }
 
 /* 로그인한 게시글 작성자 */
