@@ -17,13 +17,13 @@
 	--after: "분과 콩닥콩닥";		 /* 접속자 수 뒤 */
 }
 
-@font-face {
+/* @font-face {
     font-family: 'zzuizicfont';
     src: url('https://zzuizic.github.io/Cafe24Ssurround.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
-}
+}*/
 
 /* 모든 항목 focus시 아웃라인 제거 */
 *:focus { outline: none !important; }
