@@ -390,7 +390,8 @@ input[type=checkbox]{
 /* 게시글 댓글 수 */
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
 	color: var(--mainColor);
-	line-height:2;
+	line-height:2;	
+	font-weight: normal;
 }
 
 /* 로그인한 게시글 작성자 */
