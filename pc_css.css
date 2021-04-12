@@ -326,7 +326,7 @@ input[type=checkbox]{
 
 #article-list>.article-list-row>.item>.list-title>.list-writer>span{
 	height: inherit;
-    	line-height: 2;
+    	line-height: 2.5;
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-category>span{
