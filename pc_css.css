@@ -4,7 +4,7 @@
 /* 컬러, 로고 설정 부분 */
 :root {
 	--bgColor: #FDF385;	 /* 배경 색 */
-	--mainColor: #EBCD22;	 /* 메인 컬러 */
+	--mainColor: #d4b60e;	 /* 메인 컬러 */
 	--mainColor2: #ffffff; /* 트게더 메뉴, 게시글 hover */
 	--mainColor3: #FAE460; /* 공지, 인기글 */
 	--mainColor5: #FDF385; /* 공지, 인기글 hover */
@@ -396,6 +396,8 @@ input[type=checkbox]{
 /* 로그인한 게시글 작성자 */
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
 	color: var(--mainColor);
+	font-weight: normal;
+	
 }
 
 /* 게시글 본문 */
