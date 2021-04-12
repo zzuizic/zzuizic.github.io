@@ -274,6 +274,7 @@ div#main-menu div:nth-last-child(1) {
 #article-list #article-list-category>a {
 	background: transparent;
 	position: relative;
+	font-size: 14px;
 }
 
 #article-list #article-list-category > a[href="/zzuizic"] {
