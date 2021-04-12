@@ -582,10 +582,12 @@ header #header-bar a.dropdown-toggle:hover {
 .fa-user {
 	animation: heartbeat 1s infinite;
 	color: #FF0000;
+	line
 }
 
 small.favo i.fa.fa-heart {
 	animation: heartbeat 1s infinite;
+	line-height: 2;
 }
 
 span.a-badge i.fa.fa-star {
