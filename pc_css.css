@@ -320,6 +320,10 @@ div#main-menu div:nth-last-child(1) {
 }
 
 /* 게시글 */
+input[type=checkbox]{
+	margin: 10px 0 0;
+}
+
 #article-list>.article-list-row>.item>.list-title>.list-writer>span{
 	height: inherit;
     	line-height: 2;
