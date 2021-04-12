@@ -245,6 +245,7 @@ div#main-menu div:nth-last-child(1) {
 	border: 1px solid var(--mainColor);
 	box-shadow: 3px 3px var(--mainColor);
 	border-radius: 12px;
+	line-height: 2;
 }
 
 /* 공지 숨기기 버튼 */
