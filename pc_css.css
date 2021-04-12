@@ -275,7 +275,10 @@ div#main-menu div:nth-last-child(1) {
 #article-list #article-list-category>a {
 	background: transparent;
 	position: relative;
-	font-size: 14px;
+	font-size: 20px;
+	font-weight: normal;
+	padding: 0 16px;
+    	margin: 10px 0;
 }
 
 #article-list #article-list-category > a[href="/zzuizic"] {
